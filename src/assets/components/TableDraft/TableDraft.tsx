@@ -1,3 +1,4 @@
+import "./TableDraft.scss";
 import data from "../../data.json";
 import { TableProps } from "../../utils/types";
 import {
@@ -24,6 +25,7 @@ export const TableDraft = (props: TableProps) => {
                     color: "white",
                   }}
                   key={title.id}
+                  align="center"
                 >
                   {title.caption}
                 </TableCell>
@@ -34,7 +36,18 @@ export const TableDraft = (props: TableProps) => {
             {data[props.index].data.map((row, index) => (
               <TableRow key={index}>
                 {row.map((item, indx) => (
-                  <TableCell key={indx} component="th" scope="row">
+                  <TableCell
+                    key={indx}
+                    component="th"
+                    scope="row"
+                    id={
+                      typeof item === "number"
+                        ? "right"
+                        : typeof item === "boolean"
+                        ? "center"
+                        : "left"
+                    }
+                  >
                     {item.toString()}
                   </TableCell>
                 ))}
