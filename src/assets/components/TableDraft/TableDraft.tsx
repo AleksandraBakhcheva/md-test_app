@@ -1,5 +1,5 @@
-import { TableProps } from "../../utils/types";
 import data from "../../data.json";
+import { TableProps } from "../../utils/types";
 import {
   Table,
   TableBody,
@@ -13,12 +13,20 @@ import {
 export const TableDraft = (props: TableProps) => {
   return (
     <>
-      <TableContainer component={Paper}>
+      <TableContainer sx={{ maxWidth: 900 }} component={Paper}>
         <Table sx={{ minWidth: 450 }} aria-label="simple table">
           <TableHead>
             <TableRow>
               {data[props.index].header.map((title) => (
-                <TableCell key={title.id}>{title.caption}</TableCell>
+                <TableCell
+                  sx={{
+                    backgroundColor: "success.main",
+                    color: "white",
+                  }}
+                  key={title.id}
+                >
+                  {title.caption}
+                </TableCell>
               ))}
             </TableRow>
           </TableHead>
