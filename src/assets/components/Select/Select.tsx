@@ -1,3 +1,4 @@
+import "./Select.scss";
 import { SelectProps } from "../../utils/types";
 import { reportCategories } from "../../utils/other";
 
@@ -5,14 +6,14 @@ export const Select = (props: SelectProps) => {
   return (
     <>
       <select
-        name="statistics"
-        onChange={(evt) => {
-          props.setIndex(evt.target.value);
+        name="reports"
+        onChange={(event) => {
+          props.setIndex(event.target.value);
         }}
       >
         {reportCategories.map((category, index) => {
           return (
-            <option value={index} key={index}>
+            <option key={index} value={index}>
               {category}
             </option>
           );

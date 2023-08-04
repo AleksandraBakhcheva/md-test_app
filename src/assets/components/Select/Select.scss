@@ -1,0 +1,12 @@
+@import "../../styles/Variables";
+
+select {
+  margin-bottom: 20px;
+  padding: 0.5em 3em 0.5em 1em;
+  line-height: 1.5em;
+  border: thin solid $select-border-color;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color: $select-background-color;
+}
