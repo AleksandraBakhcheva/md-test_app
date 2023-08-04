@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/md-test_app/static/css/main.babcb9cf.css",
+    "main.js": "/md-test_app/static/js/main.22651605.js",
+    "index.html": "/md-test_app/index.html",
+    "main.babcb9cf.css.map": "/md-test_app/static/css/main.babcb9cf.css.map",
+    "main.22651605.js.map": "/md-test_app/static/js/main.22651605.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.babcb9cf.css",
+    "static/js/main.22651605.js"
+  ]
+}
