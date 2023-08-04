@@ -1,0 +1,164 @@
+[
+  {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "total_by_project",
+        "type": "float",
+        "caption": "Total by project"
+      },
+      {
+        "id": "project_type",
+        "type": "string",
+        "caption": "Project type",
+        "align": "center"
+      },
+      { "id": "gross_2021", "type": "float", "caption": "Gross 2023" },
+      { "id": "net_2022", "type": "float", "caption": "Net 2023" },
+      { "id": "active", "type": "boolean", "caption": "Active" }
+    ],
+    "data": [
+      ["Mimesis", 1024.3, "commercial", 2048.2, 4096.0, true],
+      [
+        "Mako",
+        2345.1,
+        "internal",
+        3465.3,
+        { "d": 12.5, "color": "selected" },
+        false
+      ],
+      ["Edelweiss", 5554.4, "commercial", 564.8, 4652.3, true],
+      ["Tesco", 4154.4, "commercial", 1564.8, 452.3, false],
+      ["CrownERP", 54.4, "internal", 164.8, 4852.3, true]
+    ]
+  },
+  {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "number_of_employees",
+        "type": "integer",
+        "caption": "Number of employees"
+      },
+      {
+        "id": "average_salary",
+        "type": "float",
+        "caption": "Average salary"
+      },
+      { "id": "employment", "type": "string", "caption": "Employment" }
+    ],
+    "data": [
+      ["Mimesis", 5, 400.8, "outsource"],
+      ["Mako", 20, 500.3, "company"],
+      ["Edelweiss", 8, 100.9, "outsource"],
+      ["Tesco", 10, 359.6, "company"],
+      ["CrownERP", 11, 257.9, "outsource"],
+      ["B&B", 4, 233.9, "company"],
+      ["Rolling", 8, { "d": 112.5, "color": "red", "width": "300" }, "company"]
+    ]
+  },
+  {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "total_days",
+        "type": "integer",
+        "caption": "Total days"
+      },
+      { "id": "active", "type": "boolean", "caption": "Active" },
+      {
+        "id": "rest_days",
+        "type": "integer",
+        "caption": "Rest days"
+      },
+      { "id": "current_stage", "type": "string", "caption": "Current Stage" }
+    ],
+    "data": [
+      ["Mimesis", 145, true, 20, "stage 1"],
+      ["Mako", 18, false, 25, "stage 2"],
+      ["Edelweiss", 89, true, 99, "stage 4"],
+      ["Tesco", 189, false, 34, "stage 1"],
+      ["CrownERP", 34, true, 88, "stage 5"],
+      ["B&B", 74, false, 90, "stage 3"],
+      ["Rolling", 88, false, 45, "stage 1"],
+      ["Apple", 134, true, 66, "stage 3"]
+    ]
+  },
+  {
+    "header": [
+      {
+        "id": "project_number",
+        "type": "integer",
+        "caption": "Project number"
+      },
+      {
+        "id": "project_name",
+        "type": "string",
+        "caption": "Project name"
+      },
+      {
+        "id": "manager_responsible",
+        "type": "string",
+        "caption": "Manager responsible"
+      },
+      { "id": "net_profit", "type": "float", "caption": "Net profit, %" },
+      {
+        "id": "completed_on_time",
+        "type": "boolean",
+        "caption": "Completed on time"
+      }
+    ],
+    "data": [
+      [1, "Mimesis", "Mary Jones", 15.5, true],
+      [2, "Mako", "Petr Ivanov", 9.3, false],
+      [3, "Edelweiss", "John Jones", 1.2, true],
+      [4, "Tesco", "Michael Groot", 5.4, false],
+      [5, "Apple", "Roy Leaves", 8.8, true],
+      [6, "B&B", "Vadim Petrov", 9.1, true],
+      [7, "CrownBP", "Aleksandr Chiva", 3.3, false],
+      [8, "CrownERP", "Roy Renoir", { "d": 0.3, "color": "red" }, true],
+      [9, "Venne", "Antoine Ferre", 19.4, true]
+    ]
+  },
+  {
+    "header": [
+      {
+        "id": "manager_name",
+        "type": "string",
+        "caption": "Manager name"
+      },
+      {
+        "id": "projects_completed_2022",
+        "type": "integer",
+        "caption": "Projects completed, 2022"
+      },
+      {
+        "id": "projects_completed_2023",
+        "type": "integer",
+        "caption": "Projects completed, 2023"
+      },
+      {
+        "id": "year_started",
+        "type": "integer",
+        "caption": "Year started"
+      },
+      { "id": "employment", "type": "string", "caption": "Employment" },
+      {
+        "id": "hours_a_week",
+        "type": "integer",
+        "caption": "Hours a week"
+      }
+    ],
+    "data": [
+      ["Mary Jones", 5, 8, 1997, "part time", 30],
+      ["Petr Ivanov", 2, 7, 2001, "full time", 40],
+      ["John Jones", 8, 8, 2007, "part time", 25],
+      ["Michael Groot", { "d": 3, "color": "grey" }, 6, 2013, "part time", 25],
+      ["Roy Leaves", 2, 4, 2022, "full time", 40],
+      ["Vadim Petrov", 0, 4, 2023, "full time", 40],
+      ["Aleksandr Chiva", 4, 15, 2000, "part time", 33],
+      ["Roy Renoir", 9, 12, 2021, "full time", 40],
+      ["Antoine Ferre", 12, 6, 2021, "part time", 20]
+    ]
+  }
+]
