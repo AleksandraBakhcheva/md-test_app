@@ -11,7 +11,8 @@
         "id": "project_type",
         "type": "string",
         "caption": "Project type",
-        "align": "center"
+        "align": "center",
+        "name": "project_data"
       },
       { "id": "gross_2021", "type": "float", "caption": "Gross 2023" },
       { "id": "net_2022", "type": "float", "caption": "Net 2023" },
@@ -63,7 +64,8 @@
       {
         "id": "total_days",
         "type": "integer",
-        "caption": "Total days"
+        "caption": "Total days",
+        "name": "project_data"
       },
       { "id": "active", "type": "boolean", "caption": "Active" },
       {
@@ -99,7 +101,8 @@
       {
         "id": "manager_responsible",
         "type": "string",
-        "caption": "Manager responsible"
+        "caption": "Manager responsible",
+        "name": "project_data"
       },
       { "id": "net_profit", "type": "float", "caption": "Net profit, %" },
       {
@@ -140,7 +143,8 @@
       {
         "id": "year_started",
         "type": "integer",
-        "caption": "Year started"
+        "caption": "Year started",
+        "name": "project_data"
       },
       { "id": "employment", "type": "string", "caption": "Employment" },
       {

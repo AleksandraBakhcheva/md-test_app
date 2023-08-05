@@ -35,7 +35,7 @@ export const TableDraft = (props: TableProps) => {
           <TableBody>
             {data[props.index].data.map((row, index) => (
               <TableRow key={index}>
-                {row.map((item, indx) => (
+                {row.map((item: any, indx) => (
                   <TableCell
                     key={indx}
                     component="th"
@@ -49,7 +49,7 @@ export const TableDraft = (props: TableProps) => {
                     }
                   >
                     {item.hasOwnProperty("d") ? (
-                      <span className="d-property">{}</span>
+                      <span className="d-property">{item.d}</span>
                     ) : (
                       item.toString()
                     )}
