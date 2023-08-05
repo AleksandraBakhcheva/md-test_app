@@ -48,7 +48,11 @@ export const TableDraft = (props: TableProps) => {
                         : "left"
                     }
                   >
-                    {item.toString()}
+                    {item.hasOwnProperty("d") ? (
+                      <span className="d-property">{}</span>
+                    ) : (
+                      item.toString()
+                    )}
                   </TableCell>
                 ))}
               </TableRow>
