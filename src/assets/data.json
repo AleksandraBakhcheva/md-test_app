@@ -11,7 +11,7 @@
         "id": "project_type",
         "type": "string",
         "caption": "Project type",
-        "align": "center",
+        "align": "left",
         "name": "project_data"
       },
       { "id": "gross_2021", "type": "float", "caption": "Gross 2023" },
@@ -39,7 +39,8 @@
       {
         "id": "number_of_employees",
         "type": "integer",
-        "caption": "Number of employees"
+        "caption": "Number of employees",
+        "align": "right"
       },
       {
         "id": "average_salary",
@@ -71,9 +72,15 @@
       {
         "id": "rest_days",
         "type": "integer",
-        "caption": "Rest days"
+        "caption": "Rest days",
+        "align": "right"
       },
-      { "id": "current_stage", "type": "string", "caption": "Current Stage" }
+      {
+        "id": "current_stage",
+        "type": "string",
+        "caption": "Current Stage",
+        "align": "left"
+      }
     ],
     "data": [
       ["Mimesis", 145, true, 20, "stage 1"],
@@ -108,7 +115,8 @@
       {
         "id": "completed_on_time",
         "type": "boolean",
-        "caption": "Completed on time"
+        "caption": "Completed on time",
+        "align": "center"
       }
     ],
     "data": [
@@ -144,7 +152,8 @@
         "id": "year_started",
         "type": "integer",
         "caption": "Year started",
-        "name": "project_data"
+        "name": "project_data",
+        "align": "right"
       },
       { "id": "employment", "type": "string", "caption": "Employment" },
       {

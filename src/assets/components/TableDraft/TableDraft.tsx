@@ -40,7 +40,7 @@ export const TableDraft = (props: TableProps) => {
                     key={indx}
                     component="th"
                     scope="row"
-                    id={
+                    align={
                       typeof item === "number"
                         ? "right"
                         : typeof item === "boolean"
