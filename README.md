@@ -21,6 +21,10 @@ npm start
 
 <a target="_blank" href="https://aleksandrabakhcheva.github.io/md-test_app/">Click Demo</a>
 
+## Docker
+
+<a target="_blank" href="https://hub.docker.com/r/aleksandrabakhcheva/md-test_app">Docker Link</a>
+
 ## Author
 
 Aleksandra Bakhcheva<br>
