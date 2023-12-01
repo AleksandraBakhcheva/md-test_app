@@ -13,6 +13,8 @@ App with displaying tabular reports based on server data received
 ## Start app
 
 ```bash
+clone the project
+cd "target folder"
 npm install
 npm start
 ```
